@@ -1,0 +1,8 @@
+flask
+flask-cors
+qdrant-client
+langchain
+langchain-google-genai
+sentence-transformers
+python-dotenv
+requests

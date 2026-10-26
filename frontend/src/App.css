@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .header {
+    width: 100%;
+    background-color: #2d8cff;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .content {
+    display: flex;
+    width: 100%;
+    height: calc(100% - 100px);
+  }
+  
+  .chat {
+    flex: 1;
+    overflow-y: auto;
+    border-right: 1px solid #ccc;
+    padding: 1rem;
+  }
+  
+  .map {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .input-container {
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+    background: #f9f9f9;
+  }
+  
+  input {
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    background-color: #2d8cff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #166bcf;
+  }
+  
